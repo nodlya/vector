@@ -1,0 +1,103 @@
+body{
+    min-width: 720px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.nav{
+    background: #ffffff;
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.brand-logo{
+    height: 60px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    width: 500px;
+    display: flex;
+}
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 1px solid #d1d1d1;
+    text-transform:inherit;
+    background: none;
+    color: #a9a9a9;
+    outline: none;
+}
+
+.search-btn{
+    width: 20%;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #9ED5C5;
+    color: #fff;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search-btn:hover{
+    opacity: 0.7;
+}
+
+.search-box::placeholder{
+    color: rgba(0, 0, 0, 0.35)
+}
+
+.nav-items a{
+    margin-left: 20px;
+}
+
+.nav-items a img{
+    width: 30px;
+}
+
+.links-container{
+    width: max-content;
+    min-width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    background: #8EC3B0;
+    border-top: 1px solid #d1d1d1;
+}
+
+.link{
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin: 0 5px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 1;
+    transition: .5s;
+}
+
+.link:hover{
+    opacity: 0.5;
+}
