@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.less';
-import 'reset-css';
+
 
 import logo from '@Assets/images/logo.jpg'
 import SupportMenu from '@Components/SupportMenu/SupportMenu';
